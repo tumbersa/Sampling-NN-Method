@@ -14,8 +14,8 @@ int main() {
     
     ImageProcessor imageProcessor(originalImagePath);
     
-    int reducedWidth = 350; // Your desired reduced width
-    int reducedHeight = 350; // Your desired reduced height
+    int reducedWidth = 10; // Your desired reduced width
+    int reducedHeight = 10; // Your desired reduced height
     
     imageProcessor.reduceNearestNeighbor(reducedWidth, reducedHeight, reducedNNImagePath);
     imageProcessor.reduceSampling(reducedWidth, reducedHeight, reducedSamplingImagePath);

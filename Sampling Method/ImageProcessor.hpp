@@ -10,7 +10,7 @@
 
 #include "stb_image.h"
 #include "stb_image_write.h"
-
+#include <iostream>
 class ImageProcessor {
 public:
     ImageProcessor(const char* originalImagePath);
@@ -40,8 +40,8 @@ ImageProcessor::~ImageProcessor() {
 void ImageProcessor::loadOriginalImage(const char* originalImagePath) {
     originalImage = stbi_load(originalImagePath, &originalWidth, &originalHeight, &originalChannels, 0);
     if (!originalImage) {
-        // Handle image loading error
-        // You may want to throw an exception or return an error code here.
+        std::cerr << "Invalid path to source image." << std::endl;
+        return;
     }
 }
 
