@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A428D8CC2AF8E3670000F9A2 /* ImageProcessor.hpp in Sources */ = {isa = PBXBuildFile; fileRef = A428D8CB2AF8E3670000F9A2 /* ImageProcessor.hpp */; };
 		A4A5D3852AF8CDB600D91C97 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4A5D3842AF8CDB600D91C97 /* main.cpp */; };
+		A4A5D38C2AF8CDF800D91C97 /* stb_image.h in Sources */ = {isa = PBXBuildFile; fileRef = A4A5D38B2AF8CDF800D91C97 /* stb_image.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A428D8CB2AF8E3670000F9A2 /* ImageProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ImageProcessor.hpp; sourceTree = "<group>"; };
 		A4A5D3812AF8CDB600D91C97 /* Sampling Method */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sampling Method"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A5D3842AF8CDB600D91C97 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4A5D38B2AF8CDF800D91C97 /* stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		A4A5D38D2AF8CE5000D91C97 /* stb_image_write.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		A4A5D38E2AF8CF9100D91C97 /* input.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = input.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				A4A5D3842AF8CDB600D91C97 /* main.cpp */,
+				A428D8CB2AF8E3670000F9A2 /* ImageProcessor.hpp */,
+				A4A5D38B2AF8CDF800D91C97 /* stb_image.h */,
+				A4A5D38D2AF8CE5000D91C97 /* stb_image_write.h */,
+				A4A5D38E2AF8CF9100D91C97 /* input.jpg */,
 			);
 			path = "Sampling Method";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A428D8CC2AF8E3670000F9A2 /* ImageProcessor.hpp in Sources */,
 				A4A5D3852AF8CDB600D91C97 /* main.cpp in Sources */,
+				A4A5D38C2AF8CDF800D91C97 /* stb_image.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
